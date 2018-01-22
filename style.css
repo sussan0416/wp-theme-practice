@@ -140,3 +140,56 @@ article img, .wp-caption {
 .navlink a:hover i {
     color: #ff8800;
 }
+
+#respond {
+    background-color: #edede3;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#respond h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#respond .comment-notes,
+#respond .logged-in-as {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#respond .form-allowed-tags {
+    font-size: 12px;
+}
+
+#respond .required {
+    color: red;
+}
+
+#respond input,
+#respond textarea {
+    display: block;
+    background-color: #fff;
+    border: solid 1px #cccccc;
+    padding: 3px;
+    font-size: 16px;
+}
+
+#respond input {
+    width: 500px;
+}
+
+#respond textarea {
+    width: 700px;
+    height: 120px;
+}
+
+#respond input[type="submit"] {
+    width: 200px;
+    background-color: #ffaa00;
+    border: solid 1px #cccccc;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
