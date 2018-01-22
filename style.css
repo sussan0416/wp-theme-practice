@@ -193,3 +193,57 @@ article img, .wp-caption {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#comments {
+    background-color: #e4e4b9;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+#comments h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#comments ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#comments article {
+    width: auto;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    overflow: visible;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+}
+
+#comments a {
+    text-decoration: none;
+}
+
+.comment-meta {
+    font-size: 12px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-content {
+    font-size: 14px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.reply {
+    text-align: right;
+    font-size: 12px;
+}
