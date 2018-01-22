@@ -1,0 +1,142 @@
+/*
+Theme Name: MY THEME
+Author: TS
+Description: This is my original theme.
+Version: 1.0
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Chango);
+
+body {
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+    background-color: #edede3}
+
+h1 {
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.5
+}
+
+a {
+    color: #b77d3c
+}
+
+a:hover {
+    color: #ff8800
+}
+
+a img {
+    border: none
+}
+
+article {
+    background-color: #ffffff;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #aaaaaa;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 1px 1px 3px #aaaaaa;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.postinfo {
+    font-size: smaller;
+    border-top: solid 1px #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.postinfo time {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #bdbc8f;
+    border-radius: 10px;
+    padding: 2px 20px 2px 20px;
+}
+
+.aligncenter {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.alignright {
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.wp-caption-text {
+    text-align: center;
+    margin-top: 3px;
+    color: #666666;
+}
+
+article img, .wp-caption {
+    max-width: 100%;
+    height: auto;
+}
+
+.navlink {
+    font-size: 14px;
+    border-top: 1px solid #cccccc;
+    margin-top: 50px;
+    margin-bottom: 40;
+    clear: both;
+    overflow: hidden;
+}
+
+.navlink i {
+    font-size: 50px;
+    color: #bdbc8f;
+    vertical-align: middle;
+}
+
+.navlink a {
+    width: 50%;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navlink-prev a {
+    float: left;
+    text-align: left;
+}
+
+.navlink-next a {
+    float: right;
+    text-align: right;
+}
+
+.navlink a:hover {
+    color: #000000;
+}
+
+.navlink a:hover i {
+    color: #ff8800;
+}
