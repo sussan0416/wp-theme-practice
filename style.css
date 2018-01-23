@@ -247,3 +247,7 @@ article img, .wp-caption {
     text-align: right;
     font-size: 12px;
 }
+
+.children {
+    margin-left: 40px;
+}

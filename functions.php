@@ -6,6 +6,8 @@ if ( !isset( $content_width ) ) {
 
 // デフォルトスクリプト
 function my_scripts() {
-    wp_enqueue_script( 'comment-reply' );
+    if ( is_single() ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
 }
 add_action( 'wp_enqueue_scripts', 'my_scripts' );
