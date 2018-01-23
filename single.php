@@ -5,6 +5,7 @@
     <title>ページタイトル</title>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<?php wp_head(); ?>
 </head>
 <body>
 
@@ -38,5 +39,6 @@ while(have_posts()): the_post(); ?>
 </artcle>
 <?php endwhile; endif; ?>
 
+<?php wp_footer(); ?>
 </body>
 </html>
