@@ -9,10 +9,15 @@
 </head>
 <body>
 
+<section class="list">
+<h1 class="list-title"><span>NEWS</span> お知らせ</h1>
+
 <?php if(have_posts()):
 while(have_posts()): the_post(); ?>
 
 <article <?php post_class(); ?>>
+
+<a href="<?php the_permalink(); ?>">
 
 <h1><?php the_title(); ?></h1>
 
@@ -22,23 +27,14 @@ while(have_posts()): the_post(); ?>
 </time>
 </div>
 
-<?php the_content(); ?>
+<?php the_excerpt(); ?>
 
-<div class="navlink">
-<span class="navlink-prev">
-<?php previous_post_link('%link', '<i class="icon-chevron-sign-left"></i> %title'); ?>
-</span>
-
-<span class="navlink-next">
-<?php next_post_link('%link', '%title <i class="icon-chevron-sign-right"></i>'); ?>
-</span>
-</div>
-
-<?php comments_template(); ?>
-
+</a>
 </article>
 
 <?php endwhile; endif; ?>
+
+</section>
 
 <?php wp_footer(); ?>
 </body>
