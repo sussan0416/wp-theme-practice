@@ -37,6 +37,7 @@ while(have_posts()): the_post(); ?>
 <?php comments_template(); ?>
 
 </article>
+
 <?php endwhile; endif; ?>
 
 <?php wp_footer(); ?>
