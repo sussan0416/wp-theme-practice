@@ -20,6 +20,18 @@ while(have_posts()): the_post(); ?>
 <time datetime="<?php echo get_the_date( 'c' ); ?>">
 <?php echo get_the_date(); ?>
 </time>
+
+<?php if( has_category() ): ?>
+<span><i class="icon-folder-open"></i>
+<?php the_category(', '); ?>
+</span>
+<?php endif; ?>
+
+<?php the_tags(
+    '<span><i class="icon-tag"></i>',
+    ', ',
+    '</span>'
+); ?>
 </div>
 
 <?php the_content(); ?>

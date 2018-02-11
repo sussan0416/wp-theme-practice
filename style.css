@@ -306,3 +306,17 @@ article img, .wp-caption {
     color: #666666;
     margin-top: -12px;
 }
+
+/* 記事が属するカテゴリーとタグ */
+.postinfo span {
+    margin-left: 30px;
+}
+
+.postinfo i {
+    color: #bdbc8f;
+}
+
+.postinfo a {
+    color: #666666;
+    text-decoration: none;
+}
