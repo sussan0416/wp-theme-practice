@@ -17,9 +17,13 @@ while(have_posts()): the_post(); ?>
 <h1><?php the_title(); ?></h1>
 
 <div class="postinfo">
+<a href="<?php echo get_month_link(
+    get_the_date('Y'), get_the_date('m')
+); ?>"
 <time datetime="<?php echo get_the_date( 'c' ); ?>">
 <?php echo get_the_date(); ?>
 </time>
+</a>
 
 <?php if( has_category() ): ?>
 <span><i class="icon-folder-open"></i>
