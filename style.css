@@ -301,3 +301,8 @@ article img, .wp-caption {
     float: left;
     margin-right: 20px;
 }
+
+.list > p {
+    color: #666666;
+    margin-top: -12px;
+}
