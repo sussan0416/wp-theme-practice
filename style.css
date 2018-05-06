@@ -379,3 +379,23 @@ footer small {
     text-align: center;
     clear: both;
 }
+
+/* 三段組み */
+.columns {
+    width: 900px;
+    margin: auto;
+}
+
+.col {
+    width: 280px;
+    float: left;
+    margin-right: 30px;
+}
+
+.col:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.col03 {
+    margin-right: 0;
+}
