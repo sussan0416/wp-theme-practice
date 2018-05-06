@@ -9,6 +9,15 @@
 </head>
 <body>
 
+<header>
+<h1>
+<a href="<?php echo home_url(); ?>">
+<img src="<?php echo get_template_directory_uri(); ?>/logo.png" alt="">
+<?php bloginfo( 'name' ); ?>
+</a>
+</h1>
+</header>
+
 <?php if(have_posts()):
 while(have_posts()): the_post(); ?>
 
