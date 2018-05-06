@@ -320,3 +320,62 @@ article img, .wp-caption {
     color: #666666;
     text-decoration: none;
 }
+
+/* ヘッダー */
+body {
+    margin: 0
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 7px #aaaaaa;
+    padding: 5px;
+    zoom: 1;
+}
+
+header h1 {
+    font-family: 'Chango', cursive;
+    font-size: 24px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header h1 a:hover {
+    color: #000000;
+}
+
+header h1 img {
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+/* フッター */
+footer {
+    color: #ffffff;
+    background-color: #2f2e0a;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear: both;
+}
+
+#comments footer {
+    color: #000000;
+    background: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+footer small {
+    display: block;
+    text-align: center;
+    clear: both;
+}
