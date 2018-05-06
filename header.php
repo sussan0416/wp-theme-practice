@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>ページタイトル</title>
+    <title><?php wp_title('-', true, 'right' ); ?><?php bloginfo( 'name' ); ?></title>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <?php wp_head(); ?>
