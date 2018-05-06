@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>ページタイトル</title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-<?php wp_head(); ?>
-</head>
-<body>
-
-<header>
-<h1>
-<a href="<?php echo home_url(); ?>">
-<img src="<?php echo get_template_directory_uri(); ?>/logo.png" alt="">
-<?php bloginfo( 'name' ); ?>
-</a>
-</h1>
-</header>
+<?php get_header(); ?>
 
 <?php if(have_posts()):
 while(have_posts()): the_post(); ?>
@@ -64,12 +46,4 @@ while(have_posts()): the_post(); ?>
 </article>
 <?php endwhile; endif; ?>
 
-<footer>
-<small>
-Copyright &copy; <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>, All rights reserved.
-</small>
-</footer>
-
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>
