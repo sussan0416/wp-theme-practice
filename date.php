@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>ページタイトル</title>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-<?php wp_head(); ?>
-</head>
-<body>
+<?php get_header(); ?>
 
 <section class="list">
 <h1 class="list-title"><span>ARCHIVES</span>
@@ -59,6 +50,4 @@ while(have_posts()): the_post(); ?>
 
 </section>
 
-<?php wp_footer(); ?>
-</body>
-</html>
+<?php get_footer(); ?>
