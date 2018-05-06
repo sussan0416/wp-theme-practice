@@ -26,3 +26,37 @@ add_filter('excerpt_more', 'my_more');
 
 // アイキャッチ画像
 add_theme_support( 'post-thumbnails' );
+
+// ウィジェット
+register_sidebar( array(
+    'id' => 'column01',
+    'name' => 'フッターカラム01',
+    'description' => '1段目に表示するウィジェットを指定。',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget' => '</aside>',
+    'before_title' => '<h1 class="widgettitle">',
+    'after_title' => '</h1>'
+) );
+
+register_sidebar( array(
+    'id' => 'column02',
+    'name' => 'フッターカラム02',
+    'description' => '2段目に表示するウィジェットを指定。',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget' => '</aside>',
+    'before_title' => '<h1 class="widgettitle">',
+    'after_title' => '</h1>'
+) );
+
+register_sidebar( array(
+    'id' => 'column03',
+    'name' => 'フッターカラム03',
+    'description' => '3段目に表示するウィジェットを指定。',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget' => '</aside>',
+    'before_title' => '<h1 class="widgettitle">',
+    'after_title' => '</h1>'
+) );
+
+// 検索フォーム
+add_theme_support( 'html5', array('search-form') );
