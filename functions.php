@@ -68,7 +68,7 @@ function my_query($query) {
     }
 
     if ( $query->is_home() ) {
-        $query->set('posts_per_page', '6');
+        $query->set('posts_per_page', '7');
     }
 }
 

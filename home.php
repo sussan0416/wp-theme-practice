@@ -3,6 +3,14 @@
 <section class="list">
 <h1 class="list-title"><span>NEWS</span> お知らせ</h1>
 
+<?php if(have_posts()):
+the_post(); ?>
+
+<?php get_template_part( 'post', 'large' ); ?>
+
+<?php endif; ?>
+
+
 <div class="colmuns">
 <?php if(have_posts()):
 while(have_posts()): the_post(); ?>
