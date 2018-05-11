@@ -30,4 +30,4 @@ while(have_posts()): the_post(); ?>
 
 </div>
 
-<?php get_footer(); ?>
+<?php get_footer( 'nomenu' ); ?>
