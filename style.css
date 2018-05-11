@@ -444,3 +444,48 @@ footer .search-field {
 footer .search-submit {
     display: none;
 }
+
+/* 記事：大パーツ */
+.list .post-large {
+    border-radius: 0;
+}
+
+.list .post-large img {
+    width: 550px;
+    height: auto;
+}
+
+.list .post-large h1 {
+    background-color: #333333;
+    color: #ffffff;
+    margin-left: 570px;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+    font-size: 32px;
+}
+
+.list .post-large p {
+    font-size: 18px;
+}
+
+/* 記事：小パーツ */
+.list .post-small {
+    width: auto;
+}
+
+.list .post-small a {
+    height: 340px;
+}
+
+.list .post-small img {
+    float: none;
+}
+
+.list .post-small h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list .post-small p {
+    font-size: 12px;
+}
