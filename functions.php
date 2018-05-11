@@ -60,3 +60,16 @@ register_sidebar( array(
 
 // 検索フォーム
 add_theme_support( 'html5', array('search-form') );
+
+// メインクエリの変更
+function my_query($query) {
+    if ( is_admin() || !$query->is_main_query() ) {
+        return;
+    }
+
+    if ( $query->is_home() ) {
+        $query->set('posts_per_page', '6');
+    }
+}
+
+add_action( 'pre_get_posts', 'my_query' );
