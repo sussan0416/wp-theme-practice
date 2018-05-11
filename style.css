@@ -489,3 +489,28 @@ footer .search-submit {
 .list .post-small p {
     font-size: 12px;
 }
+
+/* 検索結果ページ */
+.noresult {
+    border: solid 1px #aaaaaa;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.noresult .screen-reader-text {
+    display: none;
+}
+
+.noresult .search-field {
+    width: 300px;
+    border: none;
+    padding: 10px;
+}
+
+.noresult .search-submit {
+    display: none;
+}
