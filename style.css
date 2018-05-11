@@ -550,3 +550,18 @@ footer .search-submit {
 	font-size: smaller}
 
 #menu aside ul.children a	{padding-left: 30px}
+
+/* 表組み */
+table, th, td	{border: solid 1px #aaaaaa}
+
+table	{width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px}
+
+th, td	{padding: 10px 20px}
+
+th	{width: 100px;
+	background-color: #ffcb63;
+	text-align: left}
+
+td	{background-color: #ffedce}

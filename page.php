@@ -14,6 +14,18 @@ while(have_posts()): the_post(); ?>
 
 <?php the_content(); ?>
 
+<table>
+<?php $mydata = get_post_custom();
+foreach( $mydata as $key => $value ): ?>
+<?php if ( !is_protected_meta( $key )): ?>
+<tr>
+<th><?php echo $key; ?></th>
+<td><?php echo $value[0]; ?></td>
+</tr>
+<?php endif; ?>
+<?php endforeach; ?>
+</table>
+
 </article>
 <?php endwhile; endif; ?>
 
