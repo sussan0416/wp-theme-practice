@@ -514,3 +514,39 @@ footer .search-submit {
 .noresult .search-submit {
     display: none;
 }
+
+/* 固定ページ */
+#container	{width: 900px;
+	margin-left: auto;
+	margin-right: auto;}
+
+#content	{width: 640px;
+	float: left}
+
+#menu	{width: 230px;
+	float: right}
+
+#content article	{width: auto}
+
+#content textarea	{width: 500px}
+
+#menu aside h1	{font-size: 18px;
+	border-left: solid 10px #b77d3c;
+	padding-left: 10px}
+
+#menu aside ul	{list-style-type: none;
+	padding-left: 0}
+
+#menu aside li a	{display: block;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #2f2e0a;
+	border-bottom: solid 1px #cccccc;
+	padding: 10px}
+
+#menu aside li a:hover	{background-color: #b77d3c}
+
+#menu aside ul.children {margin-left: 0;
+	font-size: smaller}
+
+#menu aside ul.children a	{padding-left: 30px}
